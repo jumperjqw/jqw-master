@@ -9,25 +9,25 @@
         android:id="@+id/username"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:hint="账号："
         android:layout_marginLeft="75dp"
-        android:layout_marginTop="150dp"
-        android:maxLines="1"
-        android:gravity="left"/>
+        android:layout_marginTop="250dp"
+        android:gravity="left"
+        android:hint="账号："
+        android:maxLines="1" />
 
     <ImageView
         android:id="@+id/phone1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="56dp"
-        android:layout_marginTop="162dp"
+        android:layout_marginTop="260dp"
         android:src="@drawable/dianhua" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="215dp"
+        android:layout_marginTop="350dp"
         android:layout_marginLeft="75dp"
         android:hint="密码："
         android:maxLines="1"
@@ -39,14 +39,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="56dp"
-        android:layout_marginTop="225dp"
+        android:layout_marginTop="360dp"
         android:src="@drawable/mima" />
 
     <EditText
         android:id="@+id/password_next"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="450dp"
         android:layout_marginLeft="75dp"
         android:hint="确认密码："
         android:maxLines="1"
@@ -90,41 +90,6 @@
         android:layout_marginTop="370dp"
         android:src="@drawable/xingbie" /> -->
 
-    <EditText
-        android:id="@+id/zhifu_name"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:hint="支付宝账号："
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="430dp"
-        android:maxLines="1"
-        android:gravity="left"/>
-
-    <ImageView
-        android:id="@+id/birthday1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="440dp"
-        android:src="@drawable/shengri" />
-
-    <EditText
-        android:id="@+id/zhifu_password"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:hint="支付宝密码："
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="505dp"
-        android:maxLines="1"
-        android:gravity="left"/>
-
-    <ImageView
-        android:id="@+id/mail1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="515dp"
-        android:src="@drawable/youxiang" />
 
     --<Button
     android:id="@+id/button1"
