@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-//活动（界面）1
+//活动（界面）1 登录注册
 public class FirstActivity extends AppCompatActivity {
     private EditText username;
     private EditText password;

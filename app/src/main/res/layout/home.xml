@@ -120,7 +120,7 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/oyher_pic"
+        android:id="@+id/other_pic"
         android:layout_width="57dp"
         android:layout_height="52dp"
         android:layout_marginLeft="305dp"

@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.test">
-<!--活动注册-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-       android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".noteActivity"></activity>
+        <activity android:name=".totalActivity" />
+        <activity android:name=".inforActivity" />
+        <activity android:name=".settingActivity" />
+        <activity android:name=".otherActivity" />
+        <activity android:name=".medicalActivity" />
+        <activity android:name=".phoneActivity" />
+        <activity android:name=".learnActivity" />
+        <activity android:name=".clothActivity" />
+        <activity android:name=".foodActivity" />
         <activity android:name=".SecondActivity">
             <intent-filter>
-                <action android:name="com.example.activitytest.ACTION_START"/><!--明可响应action-->
-                <category android:name="android.intent.category.DEFAULT"/><!--附加消息-->
-                <category android:name="com.example.activitytest.My=Y_CATEGORY"/>
+                <action android:name="com.example.activitytest.ACTION_START" /> <!-- 明可响应action -->
+                <category android:name="android.intent.category.DEFAULT" /> <!-- 附加消息 -->
+                <category android:name="com.example.activitytest.My=Y_CATEGORY" />
             </intent-filter>
         </activity>
         <activity
@@ -21,15 +31,17 @@
             android:label="This is FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
+
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
         <activity android:name=".registered">
             <intent-filter>
-                <action android:name="com.example.activitytest.ACTION_START"/><!--明可响应action-->
-                <category android:name="android.intent.category.DEFAULT"/><!--附加消息-->
-                <category android:name="com.example.activitytest.My=Y_CATEGORY"/>
+                <action android:name="com.example.activitytest.ACTION_START" /> <!-- 明可响应action -->
+                <category android:name="android.intent.category.DEFAULT" /> <!-- 附加消息 -->
+                <category android:name="com.example.activitytest.My=Y_CATEGORY" />
             </intent-filter>
         </activity>
     </application>
