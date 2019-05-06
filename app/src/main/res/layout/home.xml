@@ -13,13 +13,13 @@
         android:layout_height="match_parent"
         android:background="@drawable/背景3">-->
 
-        <Button
-            android:id="@+id/餐饮图标"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="356dp"
-            android:background="@drawable/canyin" />
+    <Button
+        android:id="@+id/food_pic"
+        android:layout_width="63dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/canyin" />
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -32,7 +32,7 @@
 
 
     <TextView
-        android:id="@+id/餐饮"
+        android:id="@+id/food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -43,15 +43,15 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/服饰图标"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="165dp"
-        android:layout_marginTop="363dp"
+        android:id="@+id/cloth_pic"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="380dp"
         android:background="@drawable/fushi" />
 
     <TextView
-        android:id="@+id/服饰"
+        android:id="@+id/cloth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edit2"
@@ -63,15 +63,15 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/学习图标"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="290dp"
-        android:layout_marginTop="365dp"
+        android:id="@+id/learn_pic"
+        android:layout_width="62dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="380dp"
         android:background="@drawable/xuexi" />
 
     <TextView
-        android:id="@+id/学习"
+        android:id="@+id/learn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="308dp"
@@ -82,15 +82,15 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/通讯图标"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="500dp"
+        android:id="@+id/phone_pic"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="530dp"
         android:background="@drawable/tongxun" />
 
     <TextView
-        android:id="@+id/tongxun"
+        android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -101,15 +101,15 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/医疗图标"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="165dp"
-        android:layout_marginTop="500dp"
+        android:id="@+id/medical_pic"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="530dp"
         android:background="@drawable/yiliao" />
 
     <TextView
-        android:id="@+id/医疗"
+        android:id="@+id/medical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="183dp"
@@ -120,15 +120,15 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/其他图标"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="290dp"
-        android:layout_marginTop="500dp"
+        android:id="@+id/oyher_pic"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="530dp"
         android:background="@drawable/qita" />
 
     <TextView
-        android:id="@+id/其他"
+        android:id="@+id/other"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="308dp"
@@ -139,7 +139,7 @@
         android:textSize="25sp" />
 
     <TextView
-        android:id="@+id/本月支出"
+        android:id="@+id/pay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
@@ -150,7 +150,7 @@
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/本月结余"
+        android:id="@+id/cash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="260dp"

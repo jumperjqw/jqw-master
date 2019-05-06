@@ -38,8 +38,8 @@ public class registered extends AppCompatActivity {
         username=(EditText) findViewById(R.id.username);
         password=(EditText) findViewById(R.id.password);
         password_next=(EditText) findViewById(R.id.password_next);
-        zhifu_name=(EditText) findViewById(R.id.zhifu_name);
-        zhifu_password=(EditText) findViewById(R.id.zhifu_password);
+        //zhifu_name=(EditText) findViewById(R.id.zhifu_name);
+        //zhifu_password=(EditText) findViewById(R.id.zhifu_password);
         password.setTransformationMethod(PasswordTransformationMethod.getInstance());
         password_next.setTransformationMethod(PasswordTransformationMethod.getInstance());
         zhifu_password.setTransformationMethod(PasswordTransformationMethod.getInstance());
