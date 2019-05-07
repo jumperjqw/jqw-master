@@ -33,16 +33,14 @@ public class registered extends AppCompatActivity {
         //zhifu_password=(EditText) findViewById(R.id.zhifu_password);
         password.setTransformationMethod(PasswordTransformationMethod.getInstance());
         password_next.setTransformationMethod(PasswordTransformationMethod.getInstance());
-        zhifu_password.setTransformationMethod(PasswordTransformationMethod.getInstance());
+        //zhifu_password.setTransformationMethod(PasswordTransformationMethod.getInstance());
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String a=username.getText().toString();
                 String b=password.getText().toString();
                 String c=password_next.getText().toString();
-                String d=zhifu_name.getText().toString();
-                String e=zhifu_password.getText().toString();
-                if(a.equals("")||b.equals("")||c.equals("")||d.equals("")||e.equals("")){
+                if(a.equals("")||b.equals("")||c.equals("")){
                     new AlertDialog.Builder(registered.this)
                             .setTitle("Error")
                             .setMessage("注册信息不能为空")
@@ -51,11 +49,9 @@ public class registered extends AppCompatActivity {
                     username.getText().clear();
                     password.getText().clear();
                     password_next.getText().clear();
-                    zhifu_name.getText().clear();
-                    zhifu_password.getText().clear();
                 }
                 else {
-                    if(b!=c){
+                    if(!b.equals(c)){
                         new AlertDialog.Builder(registered.this)
                                 .setTitle("Error")
                                 .setMessage("两次密码不一致")
@@ -63,8 +59,6 @@ public class registered extends AppCompatActivity {
                                 .show();
                         password.getText().clear();
                         password_next.getText().clear();
-                        zhifu_name.getText().clear();
-                        zhifu_password.getText().clear();
                     }
                     else{
                         if(addUser(a,b)){
@@ -88,8 +82,6 @@ public class registered extends AppCompatActivity {
                                     .show();
                             password.getText().clear();
                             password_next.getText().clear();
-                            zhifu_name.getText().clear();
-                            zhifu_password.getText().clear();
                         }
                     }
                 }
